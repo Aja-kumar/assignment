@@ -35,7 +35,7 @@ const Navbar = () => {
         <div className="md:hidden flex items-center">
           <button 
             onClick={toggleMenu}
-            className="text-white focus:outline-none"
+            className="text-white focus:outline-none cursor-pointer"
           >
             {isMenuOpen ? <FaTimes size={24} /> : <FaBars size={24} />}
           </button>
